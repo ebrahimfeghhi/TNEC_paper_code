@@ -1,0 +1,22 @@
+epochs: 1462
+patience: 600
+dropout: 0.1
+learning rate: 0.0001
+batch size: 500000
+optimizer: adam
+dataset: HFO + distractor
+load_model: False
+detrend: True
+normalize: <function normalize at 0x7ff5c1ee0840>
+kfold: False
+class_weights: None
+testing: True
+num_epochs_ran: 1462
+num classes: 2
+dense_num: 10
+eps: 1e-07
+size: 100
+nonlin: selu
+nonlin_out: sigmoid
+filters: [48, 96]
+kernel_size: [20, 10]

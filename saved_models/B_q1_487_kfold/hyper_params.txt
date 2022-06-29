@@ -1,0 +1,25 @@
+epochs: 10000
+patience: 600
+dropout: 0.1
+learning rate: 0.0001
+batch size: 10000
+optimizer: adam
+dataset: HFO + distractor
+load_model: False
+detrend: True
+normalize: <function normalize at 0x7f0ebb8fe620>
+kfold: True
+class_weights: None
+testing: False
+num_epochs_ran: 10000
+num classes: 2
+dataset name: X_q1_B.npy
+patient name: 487
+dense_num: 10
+eps: 1e-07
+modeltype: cnn + dense2, avg
+nonlin: selu
+nonlin_out: sigmoid
+filters: [48, 96]
+kernel_size: [3]
+size: 100
